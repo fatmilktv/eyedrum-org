@@ -1433,6 +1433,11 @@ footer .social-icon a:hover {
 	right: 0px;
 }
 
+/* ### SPACER ### */
+.verticalspace {
+	padding-top: 5em;
+}
+
 /* ##### CUSTOM BUTTON ##### */
 .mybutton a:hover, .mybutton button:hover, .mybutton a:focus
 .mybutton button:focus {
