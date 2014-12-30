@@ -273,7 +273,9 @@ $(function() {
 		},
 		onFirstImageLoaded : function() {
 			jQuery('#cycle-loader').delay(800).hide();
-			jQuery('#fullscreen-slider').delay(800).fadeIn('slow');
+			// debugging slow load - asm
+			jQuery('#fullscreen-slider').fadeIn('slow');
+			// jQuery('#fullscreen-slider').delay(800).fadeIn('slow');
 			jQuery('.slide-content').fadeIn().animate({
 				top : '0'
 			});
